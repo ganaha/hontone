@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Hontone</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Grid -->
+
+    <!-- 利用規約ダイアログ -->
+    <string name="dialog_eula_agree">同意する</string>
+    <string name="dialog_eula_not_agree">同意しない</string>
+    <string name="dialog_eula_text">使用許諾云々かんぬん</string>
+    <string name="dialog_eula_title">使用許諾</string>
+
+    <!-- カメラ -->
+    <string name="title_activity_camera">カメラ</string>
+
+    <string name="hello_world">Hello world!</string>
+
+</resources>
