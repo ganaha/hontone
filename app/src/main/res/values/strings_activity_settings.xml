@@ -1,0 +1,54 @@
+<resources>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+    <string name="pref_header_kintone">kintone</string>
+    <string name="pref_header_design">Design</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <!-- Setting kintone Subdomain -->
+    <string name="pref_title_kintone_subdomain">Sub Domain</string>
+    <string name="pref_hint_subdomain">Sub Domain</string>
+
+    <!-- Setting kintone APP ID -->
+    <string name="pref_title_kintone_app_id">APP ID</string>
+    <string name="pref_hint_kintone_app_id">APP ID</string>
+
+    <!-- Setting kintone API Token -->
+    <string name="pref_title_kintone_api_token">API Token</string>
+
+    <!-- Design -->
+    <string name="settings_design">Design</string>
+    <string name="settings_design_color">Color</string>
+    <string-array name="settings_design_color_entries">
+        <item>Teal</item>
+        <item>Deep Orange</item>
+        <item>Gray</item>
+        <item>Red</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>Deep Purple</item>
+        <item>Indigo</item>
+        <item>Blue</item>
+        <item>Brown</item>
+        <item>Blue Grey</item>
+    </string-array>
+    <string-array name="settings_design_color_values">
+        <item>#009688</item>
+        <item>#FF5722</item>
+        <item>#9E9E9E</item>
+        <item>#F44336</item>
+        <item>#E91E63</item>
+        <item>#9C27B0</item>
+        <item>#673AB7</item>
+        <item>#3F51B5</item>
+        <item>#2196F3</item>
+        <item>#795548</item>
+        <item>#607D8B</item>
+    </string-array>
+
+</resources>

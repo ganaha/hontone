@@ -1,35 +1,60 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
 
 android {
-    compileSdkVersion 22
-    buildToolsVersion "23.0.0 rc3"
-
+    signingConfigs {
+        config {
+            keyAlias 'keystore'
+            keyPassword '09hnoo24'
+            storeFile file('/Users/t.ganaha/AndroidStudioProjects/hontone/keystores/keystore.jks')
+            storePassword '09hnoo24'
+        }
+    }
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
     defaultConfig {
-        applicationId "app.example.hontone"
-        minSdkVersion 14
-        targetSdkVersion 22
-        versionCode 1
+        applicationId "click.enblo.hontone"
+        minSdkVersion 23
+        targetSdkVersion 23
+        versionCode 8
         versionName "1.0"
     }
     buildTypes {
         release {
-            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+        debug {
+            applicationIdSuffix '.debug'
         }
     }
     productFlavors {
         premium {
+            applicationId 'click.enblo.hontone.premium'
         }
         free {
+            applicationId 'click.enblo.hontone.free'
         }
     }
 }
 
+repositories {
+    mavenCentral()
+}
+
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:22.2.0'
-    compile 'com.android.support:design:22.2.0'
-    compile "com.android.support:support-v4:22.2.0"
-    compile "com.android.support:support-v13:22.2.0"
-    compile "com.android.support:cardview-v7:22.2.0"
+    compile 'com.google.android.gms:play-services-analytics:8.3.0'
+    compile 'com.android.support:design:23.3.0'
+    compile "com.android.support:support-v4:23.3.0"
+    compile "com.android.support:support-v13:23.3.0"
+    compile "com.android.support:cardview-v7:23.3.0"
+    compile 'com.android.support:appcompat-v7:23.3.0'
+    compile 'com.google.zxing:core:3.2.0'
+    compile 'com.google.zxing:javase:3.2.0'
+    compile 'com.google.code.gson:gson:2.4'
+    compile 'com.squareup.okhttp:okhttp:2.4.0'
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.4'
+    compile 'commons-lang:commons-lang:2.6'
+    compile 'com.github.paolorotolo:appintro:3.3.0'
 }

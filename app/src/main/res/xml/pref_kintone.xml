@@ -1,0 +1,38 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- サブドメイン -->
+    <EditTextPreference
+        android:capitalize="words"
+        android:hint="@string/pref_hint_subdomain"
+        android:inputType="text"
+        android:key="setting_kintone_subdomain"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_kintone_subdomain" />
+
+    <!-- アプリID -->
+    <EditTextPreference
+        android:capitalize="words"
+        android:hint="@string/pref_hint_kintone_app_id"
+        android:inputType="number"
+        android:key="setting_kintone_app_id"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_kintone_app_id" />
+
+    <!-- API トークン -->
+    <EditTextPreference
+        android:capitalize="words"
+        android:dialogMessage="APIトークンには、レコード閲覧、レコード追加、アプリ管理の権限を付与してください。"
+        android:dialogTitle="@string/pref_title_kintone_api_token"
+        android:hint="@string/pref_hint_api_token"
+        android:inputType="text"
+        android:key="setting_kintone_api_token"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_kintone_api_token" />
+
+</PreferenceScreen>

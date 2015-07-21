@@ -1,19 +1,100 @@
 <resources>
-    <string name="app_name">Hontone</string>
+    <string name="app_name">hontone</string>
 
+    <!-- メニュー -->
     <string name="action_settings">Settings</string>
+    <string name="action_delete_histories">Cache Clear</string>
+    <string name="action_help">Help</string>
+    <string name="action_about">About</string>
+
+    <!-- アップロード制限数 -->
+    <string name="upload_count_limit">10</string>
 
     <!-- Grid -->
+    <string name="title_activity_grid">hontone</string>
 
     <!-- 利用規約ダイアログ -->
     <string name="dialog_eula_agree">同意する</string>
     <string name="dialog_eula_not_agree">同意しない</string>
-    <string name="dialog_eula_text">使用許諾云々かんぬん</string>
+    <string name="dialog_eula_text">hontone（以下、本アプリとします。）を使用する権利を以下の条件で許諾します。\n</string>
+    <string name="dialog_eula_text_1">第１条（著作権）本アプリに関する著作権等の知的財産権は、作者に帰属します。\n</string>
+    <string name="dialog_eula_text_2">第２条（権利の許諾）利用者は、本アプリをインストールし、使用することができます。\n</string>
+    <string name="dialog_eula_text_3">第３条（制限）利用者は、本アプリを改変、リバースエンジニアリング、逆コンパイルまたは逆アセンブルをすることはできません。利用者は、本ソフトウェアを第三者に販売、貸与、リースすることはできません。\n</string>
+    <string name="dialog_eula_text_4">第４条（責任の制限）本アプリに関して、いかなる場合においても、作者は一切責任を負いません。\n</string>
     <string name="dialog_eula_title">使用許諾</string>
 
     <!-- カメラ -->
     <string name="title_activity_camera">カメラ</string>
+    <string name="not_found_camera">カメラに対応していません。</string>
 
-    <string name="hello_world">Hello world!</string>
+    <string name="camera_edit_isbn">ISBN</string>
+    <string name="msg_valid_isbn">987〜から始まる13桁のISBNを入力してください。</string>
+    <string name="settings_kintone_domain">.cybozu.com</string>
+    <string name="pref_hint_api_token">API Token</string>
+    <string name="content_description_image">image</string>
+    <string name="dialog_remove">削除しますか？</string>
+    <string name="action_pref">プレファレンス</string>
+
+    <!-- Google Analytics -->
+    <string name="ga_screen_grid">一覧</string>
+    <string name="ga_screen_camera">カメラ</string>
+    <string name="ga_screen_settings">設定</string>
+    <string name="ga_screen_help">ヘルプ</string>
+
+    <!-- Navigation Drawer -->
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!-- Premium Upgrade -->
+    <string name="premium_upgrade_title">Upgrade</string>
+    <string name="premium_upgrade_message">無料版の制限数に達しました。有料版をご利用ください。</string>
+
+    <!-- ヘルプ -->
+
+    <string name="title_activity_help">Help</string>
+    <string name="help_skip">skip</string>
+    <string name="help_finish">finish</string>
+    <string name="help_message_create_app">アプリを作成して</string>
+    <string name="help_message_create_fields">下記のフィールドを作成して\n①文字列: title, ②文字列: author, ③文字列: isbn, ④リンク: largeImageUrl, ⑤文字列: itemCaption, ⑥数値:itemPrice</string>
+    <string name="help_message_app_id">アプリIDをメモって</string>
+    <string name="help_message_api_token">API tokenをメモって</string>
+    <string name="help_message_1">kintoneの設定をして\n（メモった内容を設定）</string>
+    <string name="help_message_2">カメラを押して</string>
+    <string name="help_message_3">バーコードを撮って</string>
+    <string name="help_message_4">kintoneへアップロード！</string>
+
+    <string name="dialog_about_title">このアプリについて</string>
+    <string name="dialog_about_message">Ver.%1$s (%2$s)</string>
+    <string name="help_step_1">Step.1</string>
+    <string name="help_step_2">Step.2</string>
+    <string name="help_step_3">Step.3</string>
+    <string name="help_step_4">Step.4</string>
+    <string name="help_step_5">Step.5</string>
+    <string name="help_step_6">Step.6</string>
+    <string name="help_step_7">Step.7</string>
+    <string name="help_step_8">Step.8</string>
+
+    <!-- 有料版URL -->
+    <string name="hontone_plus_url">market://details?id=click.enblo.hontone.plus</string>
+
+    <string name="title_activity_camera2">Camera2Activity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="picture">Picture</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+
+    <!-- メッセージ -->
+    <string name="book_not_found">書籍情報が取得できませんでした</string>
+    <string name="oops">予期せぬエラーが発生しました。</string>
+    <string name="limit_exceeded">アップロード制限数に達しました。</string>
+    <string name="books_not_found">アップロードできる書籍がありません。</string>
+    <string name="uploaded">アップロードしました。</string>
+
+    <!-- 未設定メッセージ -->
+    <string name="not_found_api_token">API トークンを設定してください。</string>
+    <string name="not_found_app_id">アプリIDを設定してください。</string>
+    <string name="not_found_subdomain">Setting からSub Domain を設定してください。</string>
 
 </resources>

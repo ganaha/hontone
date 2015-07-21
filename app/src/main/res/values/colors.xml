@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#FFFFFF</color>
+    <color name="background_white">#FFFFFF</color>
+    <color name="background_gray">#FAFAFA</color>
+    <color name="background_orange">#FBE9E7</color>
+
+    <color name="text_color">#FFFFFF</color>
+
+    <color name="primary_color">#009688</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <!-- Color Palette -->
+    <color name="color_palette_red">#F44336</color>
+    <color name="color_palette_pink">#E91E63</color>
+    <color name="color_palette_purple">#9C27B0</color>
+    <color name="color_palette_deep_purple">#673AB7</color>
+    <color name="color_palette_indigo">#3F51B5</color>
+    <color name="color_palette_blue">#2196F3</color>
+    <color name="color_palette_light_blue">#03A9F4</color>
+    <color name="color_palette_cyan">#00BCD4</color>
+    <color name="color_palette_teal">#009688</color>
+    <color name="color_palette_green">#4CAF50</color>
+    <color name="color_palette_light_green">#8BC34A</color>
+    <color name="color_palette_lime">#CDDC39</color>
+    <color name="color_palette_yellow">#FFEB3B</color>
+    <color name="color_palette_amber">#FFC107</color>
+    <color name="color_palette_orange">#FF9800</color>
+    <color name="color_palette_deep_orange">#FF5722</color>
+    <color name="color_palette_brown">#795548</color>
+    <color name="color_palette_grey">#9E9E9E</color>
+    <color name="color_palette_blue_grey">#607D8B</color>
+
+</resources>

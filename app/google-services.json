@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_id": "hontone-91e55",
+    "project_number": "903489084318",
+    "name": "hontone"
+  },
+  "client": [
+    {
+      "client_info": {
+        "client_id": "android:click.enblo.hontone",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "click.enblo.hontone"
+        }
+      },
+      "oauth_client": [],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-66299606-1"
+          }
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "ARTIFACT_VERSION": "1"
+}

@@ -1,12 +1,20 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="app.example.hontone.activities.GridActivity">
+    tools:context="click.enblo.hontone.activities.GridActivity">
 
     <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
+        android:id="@+id/action_upload"
+        android:icon="@mipmap/ic_update"
+        android:orderInCategory="90"
+        android:title="Update"
+        app:showAsAction="always" />
+
+    <!--<item-->
+        <!--android:id="@+id/action_clear"-->
+        <!--android:icon="@drawable/ic_action_content_remove_circle"-->
+        <!--android:orderInCategory="91"-->
+        <!--android:title="Clear cache"-->
+        <!--app:showAsAction="always" />-->
 
 </menu>
